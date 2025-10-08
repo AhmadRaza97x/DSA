@@ -1,7 +1,13 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main ()
 {
-    cout<<"AHMAD RAZA"+1;
+    cout << "Ahmad"<< endl;             // endl == \n  WE CAN USE BOTH
+
+
+    int x;
+    cout<<"Enter no. :";
+    cin >> x;                           // INPUT
+    cout<< "Value of x is : "<< x;      // PRINT
     return 0;
 }
